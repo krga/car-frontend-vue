@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios@0.17.0/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Car List</h1>
+    <div id="cars">
+        <p>{{info}}</p>
+        <ol>
+            <li v-for="car in cars">
+                {{car.attributes.name}}
+            </li>
+        </ol>     
+      </div>
+
+      <script src="script.js"></script>
+  </body>
+</html>

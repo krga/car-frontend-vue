@@ -1,0 +1,17 @@
+{
+  "name": "car-frontend-vue",
+  "version": "1.0.0",
+  "description": "A frontend for the car API using Vue.js as the frontend framework which is served as static content by Node.js/express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Kristian Gavran",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "5.0.0",
+    "express": "4.16.2",
+    "path": "0.12.7"
+  }
+}
