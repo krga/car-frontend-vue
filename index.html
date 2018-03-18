@@ -7,6 +7,10 @@
   <body>
     <h1>Car List</h1>
     <div id="cars">
+
+        <p>
+            Search for a car by name: <input v-model="searchname">
+        </p>
         <p>{{info}}</p>
         <ol>
             <li v-for="car in cars">
